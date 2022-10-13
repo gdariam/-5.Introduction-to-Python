@@ -82,7 +82,7 @@
 # elif username == 'Ильнар':
 # print('Ильнар - топ)')
 # else:
-# print('Привет, ', username
+# print('Привет, ', username)
 
 # Управляющие конструкции: while
 # while condition:
