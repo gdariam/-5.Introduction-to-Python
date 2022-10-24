@@ -26,6 +26,9 @@ def product(my_list):
     for i in range(0, len(my_list) // 2):
         resu = my_list[i] * my_list[ - 1 - i]
         result.append(resu)
+    if len(my_list) % 2:
+        resu = my_list[(len(my_list) // 2)] ** 2
+        result.append(resu)
     return result
 
 new_list = product(my_list)
