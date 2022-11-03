@@ -18,5 +18,4 @@ def product(n):
         result.append(res)
     print(result)
 
-
 product(n)
